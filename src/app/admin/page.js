@@ -1,7 +1,7 @@
 'use client'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
-import { createClient } from '../../lib/supabase/server'
+import { createClient } from '../../lib/supabase/client'
 import Header from '../../components/Header'
 
 const STATUS_LABELS = {
