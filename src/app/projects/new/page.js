@@ -3,7 +3,7 @@
 import { useState, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { createClient } from '../../../lib/supabase/client'
+import { createClient } from '../../../lib/supabase/client' 
 import Header from '../../../components/Header'
 
 export default function NewProjectPage() {
